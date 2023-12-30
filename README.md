@@ -13,6 +13,9 @@ Examples:
 <li>f(n) is constant, O(1)</li>
 </ul>
 
+![image](https://github.com/bhuvan2205/DSA/assets/56767330/805ada5a-f984-496e-b4db-df93e5f1bd60)
+
+
 <b>Big θ(Space Complexity):</b>
 <p>To describe the space(memory address) complexity of the function. Relation between the memory space and input of the function.</p>
 Rules of Thumb:
