@@ -5,16 +5,16 @@ Data Structures and Algorithms
 # Concepts to understand
 
 <b>Big O(Time Complexity):</b>
-To describe the run time complexity of the function. 
-Relation between the execution time and input of the function.
+<p>To describe the run time complexity of the function.</p>
+<p>Relation between the execution time and input of the function.</p>
 Examples:
 <ul>
-f(n) is linear, O(n)
-f(n) is constant, O(1)
+<li>f(n) is linear, O(n)</li>
+<li>f(n) is constant, O(1)</li>
 </ul>
 
 <b>Big θ(Space Complexity):</b>
-To describe the space(memory address) complexity of the function. Relation between the memory space and input of the function.
+<p>To describe the space(memory address) complexity of the function. Relation between the memory space and input of the function.</p>
 Rules of Thumb:
 <ul>
 <li>Booleans, numbers, null, undefined are O(1)</li>
@@ -22,16 +22,16 @@ Rules of Thumb:
 </ul>
 
 <b>Logarithms:</b>
-Nothing but the inverse of exponential in maths. In order to say, just like multiplication and division.
+<p>Nothing but the inverse of exponential in maths. In order to say, just like multiplication and division.</p>
 Example:
 
 <pre>
-log2(8) = 3            ------------>           2 ** 3 = 8
-log2(value) = exponent      ------------>     2 ** exponent = value
+log2(8) = 3                 ------------>           2 ** 3 = 8
+log2(value) = exponent      ------------>           2 ** exponent = value
 </pre>
 
 <b>Algorithm:</b>
-A process or set of steps to solve a certain problem.
+<p>A process or set of steps to solve a certain problem.</p>
 In other terms,
 <pre>
 Input ---> Algorithm ---> Output
@@ -47,10 +47,10 @@ Input ---> Algorithm ---> Output
 </pre>
 
 <b>Naive Solution:</b>
-Straightforward attempt to solve solution. In some cases, might not be the best solution.
+<p>Straightforward attempt to solve solution. In some cases, might not be the best solution.</p>
 
 <b>Trivial Solution:</b>
-Best approach to solve the problem or optimal solution.
+<p>Best approach to solve the problem or optimal solution.</p>
 
 # Algorithms
 
