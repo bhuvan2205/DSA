@@ -11,7 +11,7 @@ To find the given value exists in the data.
 <ul>
 <li>Linear Search</li>
 <li>Binary Search</li>
-<ul>
+</ul>
 
 <p>Linear Search:</p>
 Iterate over the data and check each value for the matching or not. If the value matches, return true (or index). Else return false(or -1).
