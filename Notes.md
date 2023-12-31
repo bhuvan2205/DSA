@@ -11,13 +11,13 @@ To find the given value exists in the data.
 <ul>
 <li>Linear Search</li>
 <li>Binary Search</li>
-<ul>
+</ul>
 
-<p>Linear Search:</p>
+<h2>Linear Search:</h2>
 Iterate over the data and check each value for the matching or not. If the value matches, return true (or index). Else return false(or -1).
 <pre>Time Complexity: O(n)</pre>
 
-<p>Binary Search:</p>
+<h2>Binary Search:</h2>
 
 Working using Divide and Conquer method. To implement this we need start(0), end(length of the data) and middle(left + right / 2).
 Compare middle matching the value, if yes return true(or index).
@@ -26,7 +26,7 @@ Else, the middle is lesser than the value, move the end to the middle and calcul
 Repeat the process until the start and end equals, if there is no match return false(or -1).
 <pre>Time Complexity: O(log n)</pre>
 
-<p>Naive String(sub-string) Search:</p>
+<h2>Naive String(sub-string) Search:</h2>
 Iterate over the data. And one more iteration to find the match.
 Create a variable to add the count and if the 1st value and 2nd value doesn’t match, break the loop. Else if the count and found length matches increment the count and at last return the count value.
 <pre>Time Complexity: O(n^2)</pre>
@@ -46,25 +46,25 @@ To sort the data in particular order(asc/des).
 <li>Selection Sort</li>
 </ul>
 
-<p>Bubble Sort:</p>
+<h2>Bubble Sort:</h2>
 Iterate over the data. And one more iteration to compare current value and next value. If current value is greater than next value, swap the values.
 
 <p>Optimization technique:</p>
 If it’s almost sorted data, we can check if the sorting is done(no-swapping) from the previous iteration. If yes, break the loop and return the sorted array.
 <pre>Time Complexity: O(n^2)</pre>
 
-<p>Selection Sort:</p>
+<h2>Selection Sort:</h2>
 Unlike Bubble sort, here we are going to find the smallest element and swap the values. Iterate over the data. And one more iteration to compare current value and smallest value. If smallest value is greater than the current value, update the smallest element to the current and swap the values.
 
 <p>Optimization technique:</p>
 Need to sort only if the current element and smallest element is different and returns the sorted array.
 <pre>Time Complexity: O(n^2)</pre>
 
-<p>Insertion Sort:</p>
+<h2>Insertion Sort:</h2>
 Iterate over the data to go through each value. We need to store the pointer(arr[i]) value to update later. And add one more iteration to re-arrange the value from i - 1 to 0. And end of each iteration update the j + 1 value with the pointer to place the smallest  element at the beginning. If the current value(arr[j]) is lesser than pointer break the loop and return the array.
 <pre>Time Complexity: O(n^2)</pre>
 
-<p>Merge Sort:</p>
+<h2>Merge Sort:</h2>
 First thing to understand is, how to merge two sorted Array.
 
 </p><b>Merge two Sorted Array:</b></p>
