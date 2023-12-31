@@ -37,7 +37,7 @@ To sort the data in particular order(asc/des).
 <p>Most Common ways to implement:</p>
 
 <ul>
-<li></li>Quick Sort</li>
+<li>Quick Sort</li>
 <li>Radix Sort</li>
 <li>Heap Sort</li>
 <li>Merge Sort</li>
