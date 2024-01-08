@@ -67,7 +67,7 @@ Iterate over the data to go through each value. We need to store the pointer(arr
 <h2>Merge Sort:</h2>
 First thing to understand is, how to merge two sorted Array.
 
-</p><b>Merge two Sorted Array:</b></p>
+<p><b>Merge two Sorted Array:</b></p>
 <ul>
 <li>Create new(result) array to store the sorted elements. Compare the first element from both of the array.</li>
 <li>If the first array element is greater than the second array element, push the second array element to the result array and move the next position of the second array.</li>
@@ -79,3 +79,32 @@ First thing to understand is, how to merge two sorted Array.
 <b>Implementation of Merge Sort:</b>
 <p>Find the middle position to split the array into two arrays and store it in left and right. Call the merge sort again and again until the length of the array is lesser than or equals to 1. Call the merge function to sort the elements by passing two values(left, right) and return the sorted array.</p>
 <pre>Time Complexity: O(n log n)</pre>
+
+<h2>Quick Sort:</h2>
+Assuming the single element inside the array is always sorted. By this way, quick sort works.
+
+<p><b>Pivot Index:</b></p>
+<ul>
+<li>Create the pivot index as start and iterate over the array using loop.</li>
+<li>If Pivot element is greater than the current element swap elements. And increase the pivot index by 1.</li>
+<li>After the iteration completed swap the pivot and start element of the array.</li>
+</ul>
+
+<b>Implementation of Merge Sort:</b>
+<p>Find the pivot index using the above function. And call the merge_sort for the left side and right side separately. Repeat the process until the left is smaller than right. Finally, return the sorted array.</p>
+<pre>Time Complexity: O(n log n)</pre>
+
+<h2>Radix Sort:</h2>
+Unlike any other sorts, radix sort is not going to compare between two numbers. It’s going to use the fact that two/three digit number are always greater than the single digit number.
+
+<p><b>Get Digit Count:</p></b>
+Return the number of digit of the number by converting the number into string and using length property.
+
+<p><b>Get Digit value:</p></b>
+<p>Return the value from the position of the digit if exist else 0.</p>
+
+<b>Implementation of Radix Sort:</b>
+<p>Get the maximum digit numbers from the array list.
+Iterate over the list and create the buckets ro store the elements.
+Iterate over the elements and push the digit corresponding to the bucket list. Concat the bucket list to and move the values to the array. And finally returns the sorted array.</p>
+<pre>Time Complexity: O(n + k)</pre>
